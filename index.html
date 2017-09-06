@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WoFi共享单车</title>
+<link rel="stylesheet"  type="text/css" href="css/header.css">
+<link rel="stylesheet"  type="text/css" href="css/pic.css">
+<link rel="stylesheet"  type="text/css" href="css/footer.css">
+<link rel="stylesheet"  type="text/css" href="css/zzc.css">
+<body>
+   <div id="main">
+<header>                              
+ <div id="nav" class="" style="margin: 0 150px; position:relative">
+<div class="logo">
+<a href="#">
+<img src="img/logo.png" width="100"  height="100" alt=""> </a>
+</div>
+<div class="nav-item">
+<ul>
+<li>
+<a href="#">首页</a>
+</li>
+<li>
+<a href="about.html">关于我们</a>
+</li>
+<li>
+<a href="javascript:void(0);" onClick="showPop(tcc)">下载APP</a>
+</li>
+</ul>
+</div>
+</div>
+</header>
+
+<!--蒙板-->
+<div id="mask" style="filter: Alpha(opacity=30); -moz-opacity: 0.3; -khtml-opacity: 0.3;margin:-100px auto;
+            background: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; z-index: 5; margin:100px auto -120px auto;
+            position: fixed; left: 0; top: 0; display: none; overflow: hidden;">
+    <div id="qdcode">
+      <img src="img/qdcode.png" alt=" "/>
+          <div id="tcc" >
+          <a href="javascript:void(0);" onClick="hidePop(tcc)" id="cancel">关闭</a>
+         
+           </div>
+       </div>
+ </div>
+      
+<div id="container">
+   <div class="swiper-slide">
+    <div id="list" style="left:0px;">
+         <img class="pic-1" alt="1" />
+         <img class="pic-2" alt="2" />
+         <img class="pic-3" alt="3" />
+         <img class="pic-4" alt="4" />
+
+    </div>
+    <div id="buttons">
+      <span index="1" class="on"></span>
+      <span index="2"></span>
+      <span index="3"></span>
+      <span index="4"></span>
+    </div>
+   </div>
+    <a href="javascript:;" id="prev" class="arrow"><</a>
+    <a href="javascript:;" id="next" class="arrow">></a>
+</div>
+
+<footer>
+  <div class="fbar-logo">
+    <img src="img/logo.png" alt="">
+  </div>
+  <p class="finfo text1">想想还是我飞快！</p>
+ <div class="ficp">
+   <p class="finfo">Copyright © 2017 WoFi Inc. 保留所有权利。 公共事务邮箱    18796283679@163.com  联系我们 18796283679</p>
+ </div>
+</footer>
+<script type="text/javascript" src="js/pic.js"></script>
+<script type="text/javascript" src="js/zzc.js"></script>
+</body>
+</html>

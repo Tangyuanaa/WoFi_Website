@@ -1,0 +1,22 @@
+/*popup*/
+#qdcode{
+	position:absolute;
+	width:300px;
+	height:300px;
+	left:520px;
+	top:50px;}
+#cancel{
+	color:#FFF;
+	font-size:18px;
+	}
+#cancel:hover{
+	color:#f6cc50;
+	text-decoration:underline;}
+	
+#tcc{
+	position:relative;
+	width:60px;
+	margin:10px;
+	height:30px;
+	left:120px;
+	border-radius:10px;}

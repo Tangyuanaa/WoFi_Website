@@ -1,0 +1,92 @@
+@charset "utf-8";
+#nav {
+  height: 100px; }
+#nav .logo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: -69px;
+	top:28px;
+	margin-top: -27px;
+}
+#nav .logo a{
+      display: block;}
+ 
+
+#nav .nav-item {
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    margin-top: -13px; }
+#nav .nav-item li {
+      width: auto;
+      height: 26px;
+      line-height: 48px;
+      position: relative;
+      display: inline-block;
+      margin-left: 44px;
+      font-size: 0; }
+#nav .nav-item li a {
+        display: block;
+        font-size: 16px;
+        color:#f6cc50;
+        opacity: 0.8; }
+#nav .nav-item li a.cur, #nav .nav-item li a:hover {
+          opacity: 1;
+		  text-decoration:underline;
+		   }
+  #nav .nav-item-y li a.cur, #nav .nav-item-y li a:hover {
+    color: #ffd900; }
+  #nav .nav-item-y li span {
+    background: #ffd900; }
+  #nav .nav-item-w li a {
+    color: #414141; }
+    #nav .nav-item-w li a.cur, #nav .nav-item-w li a:hover {
+      color: #ffd900; }
+  #nav .nav-item-w li span {
+    background: #ffd900; }
+	
+	#nav .nav-item li span.nav-in {
+          -webkit-animation:navin .5s 0s ease both;
+             -moz-animation:navin .5s 0s ease both;
+              -ms-animation:navin .5s 0s ease both;
+               -o-animation:navin .5s 0s ease both;
+                  animation:navin .5s 0s ease both; }
+        #nav .nav-item li span.nav-out {
+          -webkit-animation:navout .5s 0s ease both;
+             -moz-animation:navout .5s 0s ease both;
+              -ms-animation:navout .5s 0s ease both;
+               -o-animation:navout .5s 0s ease both;
+                  animation:navout .5s 0s ease both; }
+header {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left:0px;
+  z-index: 9; }
+
+body {
+  min-width: 1140px;
+  font-size: 12px;
+  font-family: Microsoft Yahei, Avenir, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+  background: #ffffff;
+  color: #666;
+  position: relative; }
+
+a {
+  outline: 0;
+  text-decoration: none; }
+img {
+  display: block;
+  width: 100%;
+  border: 0; }
+.ul_main_banner li img {
+    height: 100%;
+    width: 100%;
+}
+img {
+    border: medium none;
+    outline: medium none;
+}

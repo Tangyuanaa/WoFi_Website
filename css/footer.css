@@ -1,0 +1,37 @@
+@charset "utf-8";
+footer{
+	top:700px;
+	margin:0;
+	padding:0;}
+
+.fbar-logo {
+	position:relative;
+    height: 72px;
+    margin: 40px auto 10px;
+    width: 72px;
+}
+p {
+    word-break: break-all;
+}
+
+.finfo.text1 {
+    padding: 12px 0 6px;
+	font-size:26px;
+	color:#666;
+}
+
+.finfo {
+    color: #a3a3a3;
+    font-size: 12px;
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+body, form, ul, ol, li, p, header, footer, section, iframe, video, article, button {
+    margin: 0;
+    padding: 0;
+}
+
+.ficp {
+    border-top: 1px solid #2b2b2b;
+} 
+

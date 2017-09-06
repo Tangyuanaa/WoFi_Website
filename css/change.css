@@ -1,0 +1,80 @@
+/*about us--introduce*/
+#contents {
+    
+    background-color: #fff;
+	width:80%;
+	height:500px; /*可以改变单车介绍内容的大小*/
+	position:relative;
+	left:10%;
+	top:160px;
+	margin-top:100px;
+    border-top: 15px solid #f6cc50;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.left-content{
+	margin-top:20px;}
+.left-content h4,.center-content h4 {
+	text-align:center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #121212;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.left-content p { 
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 18px;
+	margin-bottom:1em;
+	font-style:宋体;
+    color: #5a5a5a;
+    font-weight: 300;
+}
+
+.center-content{
+	margin-top:20px;}
+.person{
+	width:700px;
+	height:450px;
+	margin:0 auto;
+	}
+.per{
+	float:left;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+	}
+.person div{
+	width:100px;
+	height:156px;
+	margin:20px;
+  }
+  .per p{
+	  text-align:center;
+	  color:#000;
+	  }
+	.intro{
+		width：100px;
+		height:40px;}
+
+	
+.right-content{
+	margin-top:20px;}
+
+.right-content p { 
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 18px;
+	margin-bottom:1em;
+	font-style:宋体;
+    color: #5a5a5a;
+    font-weight: 300;
+}
+.right-content h4{
+	text-align:center;
+    font-size: 28px;
+	position:relative;
+	top:-20px;
+	text-transform: uppercase;
+	color: #121212;}
+
+

@@ -1,0 +1,85 @@
+* {
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+}
+body {
+padding: 20px;
+}
+#container {
+height: 800px;
+position: relative;
+width:100%;
+overflow:hidden;
+margin: -20px auto;
+}
+
+#list {
+width: 5600px;
+height: 800px;
+position: absolute;
+z-index: 1;
+}
+#list .pic-1{
+	background:url("../img/pic1.png") no-repeat scroll center top / cover;}
+#list .pic-2{
+	background:url("../img/pic2.png") no-repeat scroll center top / cover;}
+#list .pic-3{
+	background:url("../img/pic3.png") no-repeat scroll center top / cover;}
+#list .pic-4{
+	background:url("../img/pic4.png") no-repeat scroll center top / cover;}
+
+#list>img {
+width: 1400px;
+height: 800px;
+float: left;}
+
+#buttons {
+position: absolute;
+height: 10px;
+width: 100px;
+z-index: 2;
+bottom: 50px;
+left:48%;
+}
+#buttons span {
+cursor: pointer;
+float: left;
+border: 1px solid #fff;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background: #333;
+margin-right: 5px;
+}
+#buttons .on {
+background: orangered;
+}
+.arrow {
+cursor: pointer;
+display: none;
+line-height: 39px;
+text-align: center;
+font-size: 36px;
+font-weight: bold;
+width: 40px;
+height: 40px;
+position: absolute;
+z-index: 2;
+top: 360px;
+background-color: RGBA(0, 0, 0, .3);
+color: #fff;
+}
+.arrow:hover {
+background-color: RGBA(0, 0, 0, .7);
+}
+
+#container:hover .arrow {
+display: block;
+}
+#prev {
+left: 20px;
+}
+#next {
+right: 20px;
+}
