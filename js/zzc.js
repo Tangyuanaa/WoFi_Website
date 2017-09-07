@@ -21,7 +21,7 @@ function getPosition() {
         function hideMask(id) {
             document.getElementById(id).style.display = "none";
         }
-        //显示登录
+        //显示弹出框
         function showPop(id) {
             showMask('mask');
             var width = 300;  //弹出框的宽度
